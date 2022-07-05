@@ -1,0 +1,24 @@
+{
+  "name": "analysisproj",
+  "version": "1.0.0",
+  "description": "Analysis project for bitcoin prices in Blockchain course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bradley Feitsvaig",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.13.0",
+    "chart.js": "^3.7.0",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.2",
+    "js-svm": "^1.0.4",
+    "ml-svm": "^2.1.2",
+    "node-scatterplot": "^1.0.0",
+    "nodeplotlib": "^1.0.0",
+    "plotly": "^1.0.6",
+    "svm": "^0.1.1"
+  }
+}
